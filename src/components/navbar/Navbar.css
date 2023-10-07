@@ -1,0 +1,87 @@
+* {
+    font-family: monospace;
+}
+
+.bgnavbar {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    position: fixed;
+    z-index: 25551515;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1100px;
+    height: 80px;
+    padding: 0 50px;
+    border-radius: 0 0 15px 15px;
+    background: #191919f8;
+    box-shadow: rgba(255, 255, 255, 0.783) 0px 3px 8px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.logo>img:nth-child(1) {
+    width: 50px;
+    height: 50px;
+}
+
+.logo>img:nth-child(2) {
+    width: 140px;
+    height: 35px;
+    margin-top: 15px;
+}
+
+.navbar>ul {
+    width: 400px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navbar>ul>li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100%;
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.navbar>ul>li>a {
+    color: white;
+    text-decoration: none;
+}
+
+.lieffect {
+    bottom: 10px;
+    width: 4%;
+    height: 4px;
+    border-radius: 10px;
+    background: #F2CB07;
+    position: absolute;
+    transition: 0.5s;
+}
+
+.navbar li:hover>.lieffect {
+    width: 80%;
+}
+
+.navbar li:hover a{
+    color: #F2CB07;
+}

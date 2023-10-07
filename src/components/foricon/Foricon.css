@@ -1,0 +1,47 @@
+.arrow{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 30px;
+    position: fixed;
+    color: white;
+    bottom: 190px;
+    right: 70px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(255, 255, 255, 0.32) 0px 2px 16px 0px;
+}
+.telegram{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 30px;
+    position: fixed;
+    color: white;
+    bottom: 120px;
+    right: 70px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(255, 255, 255, 0.32) 0px 2px 16px 0px;
+}
+.phone{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 30px;
+    position: fixed;
+    color: white;
+    bottom: 50px;
+    right: 70px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(255, 255, 255, 0.32) 0px 2px 16px 0px;
+}
+.icons div:hover{
+    background: #f2cb07;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(242, 203, 7, 0.32) 0px 2px 16px 10px;
+
+}

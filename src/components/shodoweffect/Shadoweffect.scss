@@ -1,0 +1,25 @@
+@import 'compass';
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+}
+
+$dropShadows: ();
+
+@for $i from 1 through 6 {
+    $dropShadows: $dropShadows drop-shadow(calc(var(--x) * #{pi()} * #{$i}) calc(var(--y) * #{pi()} * #{$i}) #{$i*0.3}px hsl(270, 100%, $i*12%));
+}
+
+h1 {
+    font-family: 'Bungee Outline', "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 25vh;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    filter: $dropShadows;
+}

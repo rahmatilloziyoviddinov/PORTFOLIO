@@ -1,0 +1,94 @@
+.bigfooter {
+    width: 100%;
+    height: 88px;
+    display: flex;
+    align-items: end;
+    background: #191919;
+}
+
+.footer {
+    width: 100%;
+    height: 80px;
+    background: #191919;
+    border-radius: 80px 80px 0 0;
+    box-shadow: rgba(255, 255, 255, 0.76) 0px 22px 70px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+    padding-top: 15px;
+}
+
+.footername {
+    width: 230px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    color: white;
+}
+
+.footername:hover p {
+    color: #F2CB07;
+}
+
+.footername:hover svg {
+    color: #F2CB07;
+}
+
+.footername svg {
+    width: 30px;
+    font-size: 25px;
+    color: white;
+}
+
+.footername p {
+    height: 100%;
+    font-size: 16px;
+    color: white;
+}
+
+.footericon {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footericon a {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footericon a:hover {
+    color: #F2CB07;
+}
+
+.footericon a svg {
+    font-size: 25px;
+}
+
+.footernumber {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footernumber a {
+    width: 220px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.footernumber a:hover {
+    color: #F2CB07;
+}
+
+.footernumber a svg {
+    font-size: 25px;
+}

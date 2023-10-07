@@ -1,0 +1,29 @@
+.Biography{
+    width: 100%;
+    height: 100vh;
+    background: #191919;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 50px;
+}
+.Biography h1{
+    color: white;
+    font-size: 25px;
+    border: 2px solid #F2CB07;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    /* margin-top: 130px; */
+}
+.Biography p{
+    width: 800px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+    border: 2px solid #F2CB07;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    letter-spacing: .3px;
+    line-height: 50px;
+}
